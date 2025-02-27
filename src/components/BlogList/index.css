@@ -1,0 +1,12 @@
+/* Write your CSS code here */
+
+.each-blog-item-container {
+  padding: 5px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .each-blog-item-container {
+    width: 80%;
+  }
+}

@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image {
+  height: 50px;
+  width: 50px;
+}
+.user-name {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #12022f;
+}
+.user-role {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #9aa5b1;
+}
+
+@media screen and (min-width:768px){
+
+.profile-image {
+  height: 100px;
+  width: 100px;
+}
+.user-name {
+  font-size: 25px;
+  
+}
+.user-role {
+  font-size: 15px;
+}
+
+}
