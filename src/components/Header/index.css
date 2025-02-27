@@ -54,3 +54,20 @@
     margin-left: 10px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .title {
+    color: #12022f;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .route-link {
+    color: #12022f;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 12px;
+  }
+}
